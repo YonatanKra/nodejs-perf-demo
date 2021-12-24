@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-il-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "datafile:serve": "cd ./data && node --inspect ./fileConsumer && cd ..",
+    "datafile:stream": "cd ./data && curl localhost:8000/stream >> ./tmp.txt && cd ..",
+    "datafile:nostream": "cd ./data && curl localhost:8000 >> ./tmp.txt && cd ..",
+    "autocannon:new": "autocannon localhost:8080/new",
+    "gc": "node --trace_gc --inspect gc/old-generation.js >> gc/result2.txt",
+    "gc:example": "node --inspect gc/gc-example.js >> gc/gc-example.txt",
+    "clinic:flame": "clinic flame --autocannon [ / ] -- node clinic/clinic-flame.js",
+    "clinic:bubble-server": "node clinic/mock-server.js",
+    "clinic:bubble": "clinic bubbleprof --autocannon [ / ] -- node clinic/clinic-bubble.js"
+  },
+  "author": "",
+  "devDependencies": {
+    "autocannon": "^4.6.0"
+  },
+  "dependencies": {
+    "clinic": "^8.0.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}

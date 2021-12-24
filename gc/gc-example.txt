@@ -1,0 +1,53 @@
+buildArray1: 35.299ms
+buildArray2: 10.998ms
+buildArray1: 26.775ms
+buildArray2: 8.888ms
+buildArray1: 26.287ms
+buildArray2: 7.368ms
+buildArray1: 31.725ms
+buildArray2: 10.059ms
+buildArray1: 31.315ms
+buildArray2: 11.648ms
+Done
+buildArray1: 34.245ms
+Done
+buildArray2: 10.567ms
+buildArray1: 28.218ms
+buildArray2: 10.994ms
+Done
+buildArray1: 36.264ms
+buildArray2: 10.377ms
+Done
+buildArray1: 39.77ms
+buildArray2: 8.127ms
+Done
+buildArray1: 36.682ms
+buildArray2: 8.279ms
+Done
+buildArray1: 39.176ms
+buildArray2: 10.602ms
+Done
+buildArray1: 36.057ms
+buildArray2: 10.716ms
+Done
+buildArray1: 32.766ms
+buildArray2: 6.811ms
+Done
+buildArray1: 27.351ms
+buildArray2: 8.21ms
+Done
+Done
+buildArray1: 30.133ms
+Done
+buildArray1: 26.223ms
+Done
+buildArray1: 25.154ms
+buildArray1: 26.546ms
+Done
+Done
+buildArray2: 9.868ms
+buildArray2: 9.328ms
+buildArray1: 27.319ms
+buildArray1: 25.561ms
+Done
+Done

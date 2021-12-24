@@ -1,0 +1,3 @@
+6553600
+[51554:0x1049f2000]    16903 ms: Mark-sweep (reduce) 4.2 (4.9) -> 3.2 (4.9) MB, 3.3 / 0.0 ms  (+ 1.6 ms in 24 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 5 ms) (average mu = 1.000, current mu = 1.000) finalize incremental marking via task GC in old space requested
+[51554:0x1049f2000]    17509 ms: Mark-sweep (reduce) 3.2 (4.9) -> 3.2 (5.1) MB, 0.9 / 0.0 ms  (+ 2.4 ms in 17 steps since start of marking, biggest step 0.5 ms, walltime since start of marking 4 ms) (average mu = 0.995, current mu = 0.995) finalize incremental marking via task GC in old space requested
