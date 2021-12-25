@@ -10,6 +10,7 @@
     "autocannon:new": "autocannon localhost:8080/new",
     "gc": "node --trace_gc --inspect gc/old-generation.js >> gc/result2.txt",
     "gc:example": "node --inspect gc/gc-example.js >> gc/gc-example.txt",
+    "start": "node --inspect=0.0.0.0:9030 gc/gc-example.js",
     "clinic:flame": "clinic flame --autocannon [ / ] -- node clinic/clinic-flame.js",
     "clinic:bubble-server": "node clinic/mock-server.js",
     "clinic:bubble": "clinic bubbleprof --autocannon [ / ] -- node clinic/clinic-bubble.js"
