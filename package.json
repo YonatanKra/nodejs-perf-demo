@@ -19,7 +19,7 @@
     "autocannon": "^4.6.0"
   },
   "dependencies": {
-    "clinic": "^8.0.1",
+    "clinic": "^10.0.0",
     "express": "^4.17.1",
     "node-fetch": "^2.6.1"
   }
